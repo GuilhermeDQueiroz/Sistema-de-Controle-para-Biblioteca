@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="Guilherme Diniz" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="copyright" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="rating" content="general" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/_favicon.png">
+    <title>Cadastrar livro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="index.html">&lt; &frasl; Biblioteca &gt;</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="cadastroLivro.html" class="nav-link">Cadastrar Livro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="block">
+            <h1>Cadastro de livro</h1>
+
+            <div class="division">
+                <p></p>
+            </div>
+            <section class="block-one">
+                <section class="register">
+                    <form class="register-form">
+                        <h2>Formulário de cadastro</h2>
+                        <input type="text" id="title" placeholder="TÍTULO DO LIVRO" required>
+                        <input type="text" id="author" placeholder="AUTOR" required>
+                        <input type="text" id="category" placeholder="CATEGORIA" required>
+                        <input type="number" id="year" placeholder="ANO" required>
+                        <input type="text" id="category" placeholder="CATEGORIA" required>
+                        <input type="number" id="copies" placeholder="NÚMERO DE CÓPIAS" required>
+                        <textarea id="description" placeholder="DESCRIÇÃO" required></textarea>
+                        <button type="submit" class="registercategory">Cadastrar</button>
+                    </form>
+                </section>
+            </section>
+            <section class="block-one">
+                <section class="register">
+                    <form class="register-form">
+                        <h2>Cadastrar|Excluir categoria</h2>
+                        <input type="text" id="category" placeholder="CATEGORIA" required>
+                        <button type="submit" class="registercategory">Cadastrar</button>
+                        <button type="submit" class="deletecategory">Excluir</button>
+                    </form>
+                </section>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&COPY; &lt; &frasl; biblioteca &gt; - 2024</p>
+    </footer>
+</body>
+
+</html>
