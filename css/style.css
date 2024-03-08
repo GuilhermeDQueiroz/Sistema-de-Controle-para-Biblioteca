@@ -96,8 +96,6 @@ a {
   transform: scale(120%);
 }
 
-
-
 .reserve {
   text-align: center;
   font-weight: bolder;
@@ -133,6 +131,21 @@ a {
   font-weight: bolder;
   font-size: 0.9rem;
   background-color: rgb(255, 0, 38);
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 5px rgba(50, 50, 50, 0.22);
+  width: 30%;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.edit {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  background-color: rgb(255, 191, 16);
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 5px 5px rgba(50, 50, 50, 0.22);
